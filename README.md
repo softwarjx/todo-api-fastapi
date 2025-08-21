@@ -8,9 +8,9 @@ Interactive API documentation is available via Swagger UI at `/docs`.
 
 ## Features
 
-- User registration and login with JWT tokens  
-- Create, Read, Update, Delete tasks  
-- Secure endpoints requiring authentication  
+- User registration and login with JWT tokens
+- Create, Read, Update, Delete tasks
+- Secure endpoints requiring authentication
 - Interactive API documentation via Swagger UI
 
 ---
@@ -39,7 +39,10 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 http://127.0.0.1:8000/docs
 
-Screenshots
+---
+
+## Screenshots
+
 	1.	Register User – /register
 Shows the curl request and successful response (200 OK).
 	2.	Login User – /login
@@ -48,10 +51,6 @@ Shows the access_token returned on successful login.
 Shows creating a new task, response includes task id and owner_id.
 	4.	View Tasks – /tasks (GET)
 Shows retrieving all tasks for the authenticated user.
-
-Repository
-
-GitHub Repository
 
 ⸻
 
@@ -62,3 +61,4 @@ MIT License – feel free to use and modify for learning or production purposes.
 ⸻
 
 Author: softwarjx
+```
