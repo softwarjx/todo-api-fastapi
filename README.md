@@ -41,7 +41,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Screenshots
+Screenshots
 
 	1.	Register User – /register
 Shows the curl request and successful response (200 OK).
