@@ -2,4 +2,8 @@ __pycache__/
 .env
 *.db
 *.sqlite3
-.vscode/
+.vscode/.DS_Store
+.DS_Store
+__pycache__/
+*.db
+.env
